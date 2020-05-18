@@ -3,7 +3,7 @@ body {
     font-family: Arial;
 }
 .description{
-    color:white;
+    color:#b5b5b5;
     font-size:1em;
     opacity: 1;
 }
@@ -13,13 +13,11 @@ body {
     cursor:pointer;
     color:#FFF;
     font-size:2em;
-    transition: all 0.3s linear;
+    transition: all 0.5s linear;
     z-index: 2;
 }
 .zone-about{
     font-size:2em;
-    border-radius:4px;
-    border:1px solid #bbb;
     transition: all 0.3s linear;
     padding:30px;
 }
@@ -100,7 +98,7 @@ a {
 }
 
 .box {
-    background-color: #444;
+    background-color: rgba(0,0,0,0.3);
     padding: 20px;
     margin: 20px;
 }
@@ -220,7 +218,12 @@ footer {
     background: linear-gradient(top, #333333 0%,#333333 44%,#333333 100%); /* W3C */
 }
 
+::-webkit-scrollbar {
+  width: 0px;
+}
 
+
+/*
 ::-webkit-scrollbar { width: 8px; height: 3px;}
 ::-webkit-scrollbar-button {  background-color: #666; }
 ::-webkit-scrollbar-track {  background-color: #646464;}
@@ -228,3 +231,4 @@ footer {
 ::-webkit-scrollbar-thumb { height: 50px; background-color: #666; border-radius: 3px;}
 ::-webkit-scrollbar-corner { background-color: #646464;}}
 ::-webkit-resizer { background-color: #666;}
+*/
