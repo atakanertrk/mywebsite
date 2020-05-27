@@ -9,7 +9,7 @@ function Projects() {
 		    <div className="Project">
 		    <h2 className="description">ReactJS + asp.net core web api</h2>
 		    <a href="https://github.com/atakanertrk/reactjs-basic-template" target="_blank">
-		    <img src="/Images/notebookreact.png" alt="notebookproject"/>
+		    <img src={process.env.PUBLIC_URL + '/notebookreact.png'} alt="notebookproject"/>
 		    </a>
 		    </div>
 
