@@ -1,0 +1,48 @@
+.ProjectsDiv{
+	text-align: left;
+	margin:40px;
+	margin-top:70px;
+}
+.Project{
+	display: inline-grid;
+	margin:20px;
+}
+.Project:hover{
+	-webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+    -o-transform: rotate(-7deg);
+    transform: rotate(-7deg);
+    transition-duration: 1.5s;
+}
+.Project img{
+	width: 350px;
+	height: 500px;
+	border:12px solid rgba(0,0,0,0.4);
+}
+.description{
+	color:rgb(219,126,34);
+	font-size: 20px;
+}
+@media only screen and (max-width: 800px) {
+ .ProjectsDiv{
+	margin:40px;
+ 	margin-top:70px;
+ 	text-align: center;
+ }
+  .Project img {
+  	width: 175px;
+  	height: 250px;
+  	margin-left:40px;
+  }
+  .Project{
+	margin:15px;
+  }
+  .Project:hover{
+	-webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+    -o-transform: rotate(-7deg);
+    transform: rotate(-7deg);
+    transition-duration: 1.5s;
+  }
+}
+
