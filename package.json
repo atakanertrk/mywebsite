@@ -1,6 +1,6 @@
 {
   "name": "my-website",
-  "homepage": "https://atakanertrk.github.io/mywebsite",
+  "homepage": "http://atakanerturk.me",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,7 +10,7 @@
     "gh-pages": "^2.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "^3.4.3"
   },
   "scripts": {
     "start": "react-scripts start",
