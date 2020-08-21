@@ -5,8 +5,8 @@ function Projects() {
 	return (
 		<div id="projects">
 
-		   <h3 className="projectsGeneralText">Click to open the related project's github page</h3>
-
+		   <h1 className="projectsGeneralText">Projects</h1>
+		   
 			<div className="ProjectsDiv">
 				<div className="Project">
 					<h2 className="description">ReactJS + asp.net core web api</h2>
@@ -19,6 +19,13 @@ function Projects() {
 					<h2 className="description">ASP.NET Core MVC product management website</h2>
 					<a href="https://github.com/atakanertrk/CiftlikUrunleriSatisDemoWeb" target="_blank">
 						<img src={process.env.PUBLIC_URL + '/onurshop.png'} alt="productmanagementproject" />
+					</a>
+				</div>
+
+				<div className="Project">
+					<h2 className="description">C#.net Language Concepts and more</h2>
+					<a href="https://github.com/atakanertrk/csharp-and-dotnet-general" target="_blank">
+						<img src={process.env.PUBLIC_URL + '/csharpgeneral.png'} alt="productmanagementproject" />
 					</a>
 				</div>
 

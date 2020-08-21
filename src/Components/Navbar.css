@@ -1,23 +1,24 @@
 .Navbar{
 	
 background: rgb(19,19,20);
-background: linear-gradient(0deg, rgba(19,19,20,0.9475140397956058) 0%, rgba(51,54,60,0.9054972330729166) 39%);
+background: linear-gradient(0deg, rgba(19,19,20,1) 0%, rgba(51,54,60,1) 39%);
 
 	width: 100vw;
 	text-align: left;
 	z-index: 1;
-	top:5px;
+	top:0px;
 	padding-bottom: 9px;
+	position: fixed;
 }
 .Links{
 	margin-right: 8vw;
 	margin-left: 2vw;
 	font-size: 2vw;
 	text-decoration: none;
-	color:rgb(46,204,113);
+	color:rgb(127, 167, 197);
 }
 .Links:hover{
-	color:rgb(46,204,113);
+	color:rgb(127, 167, 197);
 	font-weight: bold;
 	text-decoration: none;
 }
