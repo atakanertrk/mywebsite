@@ -113,7 +113,7 @@ html,body{
 .go-top{
     position: fixed;
     bottom:5%;
-    right: 49%;
+    right: 48.5%;
     padding: 5px;
 }
 .go-top:hover{
