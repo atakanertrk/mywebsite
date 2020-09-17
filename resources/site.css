@@ -109,7 +109,25 @@ html,body{
     }
 }
 
-
+/************************************************/
+.go-top{
+    position: fixed;
+    bottom:5%;
+    right: 49%;
+    padding: 5px;
+}
+.go-top:hover{
+    border: 1px solid darkgreen;
+    border-radius: 50%;
+}
+@media only screen and (max-width: 600px) {
+    .go-top{
+        position: fixed;
+        bottom:2%;
+        right: 2%;
+        padding: 3px;
+    }
+}
 
 
 
