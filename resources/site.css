@@ -1,0 +1,125 @@
+html,body{
+    background-color:rgb(233,236,239);
+}
+/************************************/
+.custom-navbar img{
+    width:160px; 
+    height:160px; 
+    border-radius: 100%;
+}
+@media only screen and (max-width: 600px) {
+    .custom-navbar img{
+        width:100px; 
+        height:100px; 
+        border-radius: 100%;
+    }
+}
+.custom-navbar h4{
+    padding-top:20px;
+}
+/************************************/
+.custom-acordion-sizing{
+    width: 80%; 
+    margin-right: 10%; 
+    margin-left: 10%;
+}
+@media only screen and (max-width: 600px) {
+    .custom-acordion-sizing{
+        width: 94%; 
+        margin-right: 3%; 
+        margin-left: 3%;
+    }
+}
+/************************************/
+.custom-margintop{
+    margin-top:3%;
+}
+/************************************/
+.custom-header{
+    text-align: center;
+}
+.custom-header button{
+    color:darkgreen;
+}
+.custom-header button:hover{
+    color:darkgreen;
+}
+.custom-header h4{
+    color:darkgreen;
+}
+/************************************/
+.custom-aboutme{
+    text-align: center;
+}
+.custom-aboutme h6{
+    padding-left: 3%; 
+    padding-right: 3%; 
+    padding-top: 2%;
+}
+.custom-aboutme a{
+    color:black;
+    font-size:35px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+@media only screen and (max-width: 600px) {
+    .custom-aboutme h6{
+        padding-top:15px;
+    }
+    .custom-aboutme a{
+        font-size:25px;
+        padding-right: 3px;
+        padding-left: 3px;
+    }
+}
+/************************************/
+.custom-skills ol{
+    list-style: none;
+}
+.custom-skills li{
+    margin-top: 1%;
+}
+.custom-skills h5{
+    text-align: left; 
+    padding-left: 8%;
+    margin-top:2%;
+}
+.custom-skills p{
+    text-align: left; 
+    padding-left: 10%;
+}
+@media only screen and (max-width: 600px) {
+    .custom-skills ol{
+        padding:0px;
+    }
+    .custom-skills h5{
+        padding-left: 3%;
+    }
+}
+/***************************************/
+.custom-myworks-card{
+    width: 18rem; 
+    margin-top: 5%; 
+    display: inline-block;
+}
+
+@media only screen and (max-width: 600px) {
+    .custom-myworks-card img{
+        max-width: 300px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
