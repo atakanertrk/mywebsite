@@ -112,9 +112,9 @@ html,body{
 /************************************************/
 .go-top{
     position: fixed;
-    bottom:5%;
-    right: 48.5%;
-    padding: 5px;
+    bottom:8%;
+    right: 8%;
+    padding: 3px;
 }
 .go-top:hover{
     border: 1px solid darkgreen;
@@ -128,6 +128,8 @@ html,body{
         padding: 3px;
     }
 }
+
+
 
 
 
