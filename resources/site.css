@@ -57,6 +57,7 @@ html,body{
     }
     .custom-navbar{
         font-size: 15px;
+        text-align: center;
     }
 }
 .custom-navbar h4{
