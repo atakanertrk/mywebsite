@@ -4,6 +4,35 @@ html,body{
    background: linear-gradient(180deg, rgba(42,42,42,1) 0%, rgba(62,62,62,1) 100%);
    min-height: 100vh;
 }
+
+/*****************/
+.logos{
+    text-align: center;
+}
+.logos img{
+    height:100px; 
+    width: auto;
+    margin:20px;
+}
+@media only screen and (max-width: 600px) {
+    .logos img{
+        height:60px; 
+        width: auto;
+        margin:5px;
+    }
+}
+/************/
+.social{
+    text-align: center; 
+    margin-top:20px;
+}
+.social a{
+    color: rgba(100, 161, 157) !important;
+    font-size:35px;
+    padding-right: 5px;
+    padding-left: 5px;
+    text-align: center;
+}
 /************************************/
 
 .card{
@@ -86,6 +115,7 @@ html,body{
     padding-left: 3%; 
     padding-right: 3%; 
     padding-top: 2%;
+    padding-bottom: 3%;
     color: rgba(255, 255, 255, 0.7) !important;
 }
 .custom-aboutme a{
