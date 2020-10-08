@@ -70,12 +70,10 @@ html,body{
 }
 .custom-header h4{
     color:#fff;
-    font-family: cursive;
 }
 @media only screen and (max-width: 600px) {
     .custom-header h4{
         color:#fff;
-        font-family: cursive;
         font-size: 17px;
     }
 }
@@ -109,7 +107,6 @@ html,body{
 /************************************/
 .custom-skills{
     background-color: rgba(0,0,0,0.6);
-    font-family: cursive;
 }
 .custom-skills ol{
     list-style: none;
