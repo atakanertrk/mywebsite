@@ -33,6 +33,9 @@ html,body{
     padding-left: 5px;
     text-align: center;
 }
+.social a:hover{
+    background-color: rgba(0,0,0,0.2);
+}
 /************************************/
 
 .card{
@@ -201,14 +204,17 @@ html,body{
     position: fixed;
     bottom:8%;
     right: 8%;
-    padding: 3px;
+    padding: 2px;
+    -webkit-transition: -webkit-transform 1s ease-in-out;
+    transition: transform 1s ease-in-out;
+    background-color:rgba(0,0,0,0.3);
 }
 .go-top svg{
     color: #64a19d;
 }
 .go-top:hover{
-    border: 1px solid #64a19d;
-    border-radius: 50%;
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
 }
 @media only screen and (max-width: 600px) {
     .go-top{
