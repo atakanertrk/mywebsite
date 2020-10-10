@@ -27,7 +27,8 @@ html,body{
     margin-top:20px;
 }
 .social a{
-    color: rgba(100, 161, 157) !important;
+    /* color: rgba(100, 161, 157) !important; */
+    color:rgb(0, 200, 150);
     font-size:35px;
     padding-right: 5px;
     padding-left: 5px;
@@ -65,7 +66,8 @@ html,body{
 }
 .custom-navbar h4{
     padding-top:20px;
-    color: #64a19d;
+    /*color: #64a19d;*/
+    color:rgb(62, 166, 255);
 }
 .custom-navbar p{
     color: whitesmoke;
@@ -94,7 +96,8 @@ html,body{
 }
 .custom-header button{
     color:#fff;
-    border-bottom: 2px solid #64a19d;
+    /*border-bottom: 2px solid #64a19d;*/
+    border-bottom: 2px solid rgb(62, 166, 255);
     text-decoration: none!important;
 }
 .custom-header button:hover{
@@ -152,7 +155,9 @@ html,body{
     text-align: left; 
     padding-left: 8%;
     margin-top:2%;
-    color: rgba(100, 161, 157) !important;
+    /*color: rgba(100, 161, 157) !important; */
+    color: rgb(62, 166, 255);
+    
 }
 .custom-skills p{
     text-align: left; 
@@ -177,7 +182,8 @@ html,body{
 }
 .custom-myworks-card h5{
     font-weight: bold;
-    color:#64a19d;
+    /*color:#64a19d;*/
+    color: rgb(62, 166, 255);
 }
 .custom-myworks-card p{
     color: rgba(255, 255, 255, 0.7) !important;
@@ -210,7 +216,8 @@ html,body{
     background-color:rgba(0,0,0,0.3);
 }
 .go-top svg{
-    color: #64a19d;
+    /*color: #64a19d;*/
+    color:rgb(62, 166, 255);
 }
 .go-top:hover{
     -webkit-transform: rotate(360deg);
