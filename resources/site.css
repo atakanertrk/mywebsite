@@ -1,7 +1,6 @@
 html,body{
    /* background-color:rgb(233,236,239); */
-   background: rgb(42,42,42);
-   background: linear-gradient(180deg, rgba(42,42,42,1) 0%, rgba(62,62,62,1) 100%);
+   background: rgba(0, 10, 45,0.8);
    min-height: 100vh;
 }
 
@@ -28,7 +27,7 @@ html,body{
 }
 .social a{
     /* color: rgba(100, 161, 157) !important; */
-    color:rgb(0, 200, 150);
+    color:rgba(0, 200, 50,1);
     font-size:35px;
     padding-right: 5px;
     padding-left: 5px;
@@ -36,6 +35,7 @@ html,body{
 }
 .social a:hover{
     background-color: rgba(0,0,0,0.2);
+    color: rgb(62, 166, 255);
 }
 /************************************/
 
@@ -44,9 +44,17 @@ html,body{
 }
 
 .custom-navbar{
-    background-color: rgba(0,0,0,0.4)!important;
-    font-family: monospace;
-    font-size: 18px;
+    background-color: rgba(0,0,0,0.8)!important;
+}
+.custom-navbar p{
+    color:white;
+    padding-left:10px;
+    padding-right: 10px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    font-size:17px;
+    border-left:2px solid rgba(0, 200, 10,1);
+    background-color: rgba(0, 200, 10,0.05);
 }
 .custom-navbar img{
     width:160px; 
@@ -67,10 +75,7 @@ html,body{
 .custom-navbar h4{
     padding-top:20px;
     /*color: #64a19d;*/
-    color:rgb(62, 166, 255);
-}
-.custom-navbar p{
-    color: whitesmoke;
+    color:white;
 }
 /************************************/
 .custom-acordion-sizing{
@@ -92,12 +97,13 @@ html,body{
 /************************************/
 .custom-header{
     text-align: center;
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(0,0,0,0.8);
 }
 .custom-header button{
     color:#fff;
+    
     /*border-bottom: 2px solid #64a19d;*/
-    border-bottom: 2px solid rgb(62, 166, 255);
+    border-bottom: 2px solid rgb(0, 200, 50);
     text-decoration: none!important;
 }
 .custom-header button:hover{
@@ -105,7 +111,7 @@ html,body{
     text-decoration: none!important;
 }
 .custom-header h4{
-    color:#fff;
+    color: #fff;
 }
 @media only screen and (max-width: 600px) {
     .custom-header h4{
@@ -117,20 +123,16 @@ html,body{
 .custom-aboutme{
     text-align: center;
     background-color: rgba(0,0,0,0.4);
+    
 }
-.custom-aboutme h6{
+.custom-aboutme p{
     padding-left: 3%; 
     padding-right: 3%; 
     padding-top: 2%;
     padding-bottom: 3%;
-    color: rgba(255, 255, 255, 0.7) !important;
+    color:white;
 }
-.custom-aboutme a{
-    color: rgba(100, 161, 157) !important;
-    font-size:35px;
-    padding-right: 10px;
-    padding-left: 10px;
-}
+
 @media only screen and (max-width: 600px) {
     .custom-aboutme h6{
         padding-top:15px;
@@ -143,7 +145,7 @@ html,body{
 }
 /************************************/
 .custom-skills{
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0,0,0,0.3);
 }
 .custom-skills ol{
     list-style: none;
@@ -161,8 +163,12 @@ html,body{
 }
 .custom-skills p{
     text-align: left; 
-    padding-left: 10%;
-    color: rgba(255, 255, 255, 0.7) !important;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: rgba(255, 255, 255, 0.8) !important;
+    border-bottom:1px solid green;
+    border-bottom-right-radius: 30%;
+    border-bottom-left-radius: 5%;
 }
 @media only screen and (max-width: 600px) {
     .custom-skills ol{
@@ -180,14 +186,24 @@ html,body{
     /* background-color:  rgba(255, 255, 255, 0.8) !important; */
     background-color: rgba(0,0,0,0.5);
 }
-.custom-myworks-card h5{
-    font-weight: bold;
-    /*color:#64a19d;*/
-    color: rgb(62, 166, 255);
-}
 .custom-myworks-card p{
     color: rgba(255, 255, 255, 0.7) !important;
-    font-size: 20px;
+    font-size: 18px!important;
+}
+.custom-myworks-card a{
+    background-color: rgba(0, 200, 10,0.4)!important;
+    border: 0px;
+}
+.custom-myworks-card a:hover{
+    background-color: rgba(0, 200, 10,0.8)!important;
+}
+.custom-myworks-card h5{
+    /*color:#64a19d;*/
+    color: rgba(0, 200, 10,1);
+}
+.custom-myworks-card p{
+    color: rgba(255, 255, 255, 0.8) !important;
+    font-size: 20px!important;
 }
 @media only screen and (max-width: 600px) {
     .custom-myworks-card img{
@@ -195,13 +211,13 @@ html,body{
     }
     .custom-myworks-card p{
         color: rgba(255, 255, 255, 0.7) !important;
-        font-size: 15px;
+        font-size: 15px!important;
     }
 }
 
 /*******************************************/
 .custom-projects{
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0,0,0,0.3);
     font-family:monspace;
 }
 
@@ -214,10 +230,11 @@ html,body{
     -webkit-transition: -webkit-transform 1s ease-in-out;
     transition: transform 1s ease-in-out;
     background-color:rgba(0,0,0,0.3);
+    border-radius: 30%;
 }
 .go-top svg{
     /*color: #64a19d;*/
-    color:rgb(62, 166, 255);
+    color:white;
 }
 .go-top:hover{
     -webkit-transform: rotate(360deg);
