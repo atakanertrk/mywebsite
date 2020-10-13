@@ -47,14 +47,14 @@ html,body{
     background-color: rgba(0,0,0,0.8)!important;
 }
 .custom-navbar p{
-    color:white;
+    color:rgba(255,255,255,0.8);
     padding-left:10px;
     padding-right: 10px;
     padding-bottom: 2px;
     padding-top: 2px;
     font-size:17px;
     border-left:2px solid rgba(0, 200, 10,1);
-    background-color: rgba(0, 200, 10,0.05);
+    background-color: rgba(0, 200, 10,0.2);
 }
 .custom-navbar img{
     width:160px; 
@@ -75,7 +75,7 @@ html,body{
 .custom-navbar h4{
     padding-top:20px;
     /*color: #64a19d;*/
-    color:white;
+    color:rgba(255,255,255,0.8);
 }
 /************************************/
 .custom-acordion-sizing{
@@ -97,21 +97,21 @@ html,body{
 /************************************/
 .custom-header{
     text-align: center;
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.5);
 }
 .custom-header button{
-    color:#fff;
+    color:rgba(255,255,255,0.5);
     
     /*border-bottom: 2px solid #64a19d;*/
     border-bottom: 2px solid rgb(0, 200, 50);
     text-decoration: none!important;
 }
 .custom-header button:hover{
-    color:#fff;
+    color:rgba(255,255,255,1);
     text-decoration: none!important;
 }
 .custom-header h4{
-    color: #fff;
+    color:rgba(255,255,255,0.8);
 }
 @media only screen and (max-width: 600px) {
     .custom-header h4{
@@ -122,7 +122,7 @@ html,body{
 /************************************/
 .custom-aboutme{
     text-align: center;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0.1);
     
 }
 .custom-aboutme p{
@@ -130,7 +130,7 @@ html,body{
     padding-right: 3%; 
     padding-top: 2%;
     padding-bottom: 3%;
-    color:white;
+    color:rgba(255,255,255,0.8);
 }
 
 @media only screen and (max-width: 600px) {
@@ -145,7 +145,7 @@ html,body{
 }
 /************************************/
 .custom-skills{
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.1);
 }
 .custom-skills ol{
     list-style: none;
@@ -184,7 +184,7 @@ html,body{
     margin-top: 5%; 
     display: inline-block;
     /* background-color:  rgba(255, 255, 255, 0.8) !important; */
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.1);
 }
 .custom-myworks-card p{
     color: rgba(255, 255, 255, 0.7) !important;
@@ -199,7 +199,8 @@ html,body{
 }
 .custom-myworks-card h5{
     /*color:#64a19d;*/
-    color: rgba(0, 200, 10,1);
+    color: rgba(62, 166, 255,0.8);
+    font-weight: bold;
 }
 .custom-myworks-card p{
     color: rgba(255, 255, 255, 0.8) !important;
@@ -217,7 +218,7 @@ html,body{
 
 /*******************************************/
 .custom-projects{
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.1);
     font-family:monspace;
 }
 
