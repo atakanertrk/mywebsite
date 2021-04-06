@@ -20,169 +20,226 @@
 <body>
     <h1 style="visibility:hidden;">Atakan Ertürk</h1>
 
-    <nav class="navbar navbar-light bg-light custom-navbar" >
+    <nav class="navbar navbar-light bg-light custom-navbar">
         <div class="container">
             <div class="row">
-                <div class="col-sm-auto animationtop1" >
+                <div class="col-sm-auto animationtop1">
                     <a class="navbar-brand" href="#">
-                        <img src="./resources/me.jpg" width="30" height="30" class="d-inline-block align-top" alt="my image" >
+                        <img src="./resources/me.jpg" width="90" height="90" class="d-inline-block align-top"
+                            alt="my image">
                     </a>
                 </div>
-                <div class="col animationtop2">
+                <div class="col animationtop2" style="text-align: left;">
                     <h4>Atakan Ertürk</h4>
                     <hr />
                     <p>Trakya University Turkey/Edirne (2017-2021)</p>
                     <p>Computer Engineer / Software Developer</p>
                     <p>Eskişehir 21.01.1999</p>
-                    <p style="background:none;"><a href="mailto:atakanertrk26@gmail.com">atakanertrk26@gmail.com</a></p>
+                    <p>
+                        <a onclick="myFunction()" href="#" style="color:whitesmoke; font-size: 20px; margin-right: 5px; display: inline-block;"><i class="fa">&#xf0e0;</i></a>
+                        <input onclick="myFunction()" type="text" readonly style="border:0px; background-color: rgba(0,0,0,0); color:whitesmoke; width:70%; display: inline-block;" value="atakanertrk26@gmail.com" id="myInput">
+                    </p>
                 </div>
             </div>
         </div>
     </nav>
 
     <div class="social">
-        <a href="https://github.com/atakanertrk" target="_blank" ><i class="fa fa-github"></i></a>
-        <a style="background-color: rgba(0,0,0,0)!important;">|</a>
+        <a href="https://github.com/atakanertrk" target="_blank"><i class="fa fa-github"></i></a>
+        <a style="background-color: rgba(0,0,0,0.0)!important;">|</a>
         <a href="https://tr.linkedin.com/in/atakan-erturk-5547a017a" target="_blank"><i class="fa fa-linkedin"></i></a>
     </div>
 
-<div class="custom-acordion-sizing">
-    <div id="accordion">
-        <div class="card custom-margintop animationleft1">
-            <div class="card-header custom-header" id="headingOne">
-                <h5 class="mb-0">
-                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
-                        aria-controls="collapseOne">
-                        <h4>About Me</h4>
-                    </button>
-                </h5>
-            </div>
+    <div class="custom-acordion-sizing">
+        <div id="accordion">
+            <div class="card custom-margintop animationleft1">
+                <div class="card-header custom-header" id="headingOne">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                            aria-expanded="true" aria-controls="collapseOne">
+                            <h4>About Me</h4>
+                        </button>
+                    </h5>
+                </div>
 
-            <div id="collapseOne" class="collapse custom-aboutme" aria-labelledby="headingOne" data-parent="#accordion">
-                <p class="card-text">I was born in Eskişehir and lived
-                    there
-                    until my university education.<br /><br /> After graduating from Salih Zeki Anatolian High
-                    School in
-                    2017, I started Trakya University Computer Engineering.<br /><br /> Being able to use in real
-                    life what
-                    I have learned and creating works that others can benefit from represents my main source of
-                    motivation.
-                </p>
-               <!-- <a href="https://github.com/atakanertrk" target="_blank"><i class="fa fa-github"></i></a>
+                <div id="collapseOne" class="collapse show custom-aboutme" aria-labelledby="headingOne"
+                    data-parent="#accordion">
+                    <p class="card-text">I was born in Eskişehir and lived
+                        there
+                        until my university education.<br /><br /> After graduating from Salih Zeki Anatolian High
+                        School in
+                        2017, I started Trakya University Computer Engineering.<br /><br /> Being able to use in real
+                        life what
+                        I have learned and creating works that others can benefit from represents my main source of
+                        motivation.
+                    </p>
+                    <!-- <a href="https://github.com/atakanertrk" target="_blank"><i class="fa fa-github"></i></a>
                 <a>|</a>
                 <a href="https://tr.linkedin.com/in/atakan-erturk-5547a017a" target="_blank"><i class="fa fa-linkedin"></i></a> -->
-            </div>
-        </div>
-        <div class="card custom-margintop animationleft2">
-            <div class="card-header custom-header" id="headingTwo">
-                <h5 class="mb-0">
-                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
-                        aria-expanded="false" aria-controls="collapseTwo" id="cardHeaderTypeButton">
-                        <h4>Technologies That I Work On</h4>
-                    </button>
-                </h5>
-            </div>
-            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                <div class="card-body custom-skills">
-                    <div class="logos">
-                        <img src="./resources/images/dotnetcore.png"/>
-                        <img src="./resources/images/webapi.png"/>
-                        <img src="./resources/images/oop.png"/>
-                        <img src="./resources/images/git.png"/>
-                        <img src="./resources/images/sqlserver.png"/>
-                        <img src="./resources/images/sqlite.png"/>
-                    </div>
-                     <ol>
-                    <li>
-                        <h5>Languages / Frameworks</h5>
-                        <p>C# .NET Core</p>
-                        <p>ASP.NET CORE ( MVC, Blazor, WebAPI )</p>
-                        <p>Data Validation ( FluentValidation )</p>
-                        <p>FrontEnd - BackEnd real time communication ( SignalR )</p>
-                        <p>gRPC & REST implementation between services</p>
-                        <p>Flutter Mobile UI / ReactJS ( basic state management and backend communications )</p>
-                    </li>
-                    <li>
-                        <h5>Data Access</h5>
-                        <p>MSSql, SQLite, mongoDB</p>
-                        <p>Stored Procedures with Transactions</p>
-                        <p>Dapper,ADO.NET, EF</p>
-                    </li>
-                    <li>
-                        <h5>Other</h5>
-                        <p>WebProtocols</p>
-                        <p>Source Control, Git, Documenting</p>
-                        <p>OOP, SOLID principles, reuseable and clean code</p>
-                    </li>
-                    <li>
-                        <h5>What I Want To Learn Next</h5>
-                        <p>Unit Test - Database Mocking</p>
-                        <p>CI/CD - DevOps</p>
-                        <p>Docker - Azure Functions</p>
-                    </li>
-                </ol>
                 </div>
             </div>
-        </div>
-        <div class="card custom-margintop animationleft3">
-            <div class="card-header custom-header" id="headingThree">
-                <h5 class="mb-0">
-                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
-                        aria-expanded="false" aria-controls="collapseThree">
-                        <h4>My Works</h4>
-                    </button>
-                </h5>
-            </div>
-            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                <div class="card-body custom-projects">
-                      <div class="container">
-                        <div class="row">
-                          <div class="col-sm">
-                            <div class="card custom-myworks-card">
-                                <img class="card-img-top" src="resources/images/onurshop.png" alt="Card image cap">
-                                <div class="card-body">
-                                  <h5 class="card-title">Various Web Application</h5>
-                                  <p class="card-text">Various web applications I have created in time with ASP.NET MVC. I practiced with Data Access, Hosting, Data Validation and other general concepts</p>
-                                  <a href="https://github.com/atakanertrk/Various-WebProjects" target="_blank" class="btn btn-primary">Source Code</a>
-                                </div>
-                              </div>
-                          </div>
-                          <div class="col-sm">
-                            <div class="card custom-myworks-card">
-                                <img class="card-img-top" src="resources/images/notebookreact.png" alt="Card image cap">
-                                <div class="card-body">
-                                  <h5 class="card-title">ReactJS Examples (also contains web api)</h5>
-                                  <p class="card-text"> ReactJS examples, HTTP requests, SignalR real time implementations. (FrontEnd-BackEnd communication in general) </p>
-                                  <a href="https://github.com/atakanertrk/reactjs-basic-template" target="_blank" class="btn btn-primary">Source Code</a>
-                                </div>
-                              </div>
-                          </div>
-                          <div class="col-sm">
-                            <div class="card custom-myworks-card">
-                                <img class="card-img-top" src="resources/images/csharpgeneral.png" alt="Card image cap">
-                                <div class="card-body">
-                                  <h5 class="card-title">C#.net Language Concepts and more</h5>
-                                  <p class="card-text">My study notes about programming concepts, hosting, example codes and more</p>
-                                  <a href="https://github.com/atakanertrk/csharp-and-dotnet-general" target="_blank" class="btn btn-primary">Source Code</a>
-                                </div>
-                              </div>
-                          </div>
+            <div class="card custom-margintop animationleft2">
+                <div class="card-header custom-header" id="headingTwo">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                            aria-expanded="false" aria-controls="collapseTwo" id="cardHeaderTypeButton">
+                            <h4>Technologies That I Work On</h4>
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body custom-skills">
+                        <div class="logos">
+                            <img src="./resources/images/dotnetcore.png" />
+                            <img src="./resources/images/webapi.png" />
+                            <img src="./resources/images/oop.png" />
+                            <img src="./resources/images/git.png" />
+                            <img src="./resources/images/sqlserver.png" />
+                            <img src="./resources/images/sqlite.png" />
                         </div>
-                      </div>
+                        <hr/>
+                        <!--
+                            <ol>
+                            <li>
+                                <h5>Languages / Frameworks</h5>
+                                <p>> C# .NET Core</p>
+                                <p>> ASP.NET CORE ( MVC, Blazor, WebAPI )</p>
+                                <p>> Data Validation ( FluentValidation )</p>
+                                <p>> FrontEnd - BackEnd real time communication ( SignalR )</p>
+                                <p>> gRPC & REST implementation between services</p>
+                                <p>> Flutter Mobile UI / ReactJS ( basic state management and backend communications )
+                                </p>
+                            </li>
+                            <li>
+                                <h5>Data Access</h5>
+                                <p>> MSSql, SQLite, mongoDB</p>
+                                <p>> Stored Procedures with Transactions</p>
+                                <p>> Dapper,ADO.NET, EF</p>
+                            </li>
+                            <li>
+                                <h5>Other</h5>
+                                <p>> WebProtocols</p>
+                                <p>> Source Control, Git, Documenting</p>
+                                <p>> OOP, SOLID principles, reuseable and clean code</p>
+                            </li>
+                            <li>
+                                <h5>What I Want To Learn Next</h5>
+                                <p>> Unit Test - Database Mocking</p>
+                                <p>> CI/CD - DevOps</p>
+                                <p>> Docker - Azure Functions</p>
+                            </li>
+                        </ol>
+                        -->
+                        <div class="container">
+                            <div class="row">
+                              <div class="col-sm">
+                                <h5>Languages / Frameworks</h5>
+                                <p>C# .NET Core</p>
+                                <p>ASP.NET CORE ( MVC, Blazor, WebAPI )</p>
+                                <p>Data Validation ( FluentValidation )</p>
+                                <p>FrontEnd - BackEnd real time communication ( SignalR )</p>
+                                <p>gRPC & REST implementation between services</p>
+                                <p>Flutter Mobile UI / ReactJS ( basic state management and backend communications )
+                                </p>
+                              </div>
+                              <div class="col-sm">
+                                <h5>Data Access</h5>
+                                <p>MSSql, SQLite, mongoDB</p>
+                                <p>Stored Procedures with Transactions</p>
+                                <p>Dapper,ADO.NET, EF</p>
+                              </div>
+                              <div class="w-100"></div>
+                              <div class="col-sm">
+                                <h5>Other</h5>
+                                <p>WebProtocols</p>
+                                <p>Source Control, Git, Documenting</p>
+                                <p>OOP, SOLID principles, reuseable and clean code</p>
+                              </div>
+                              <div class="col-sm">
+                                <h5>What I Want To Learn Next</h5>
+                                <p>Unit Test - Database Mocking</p>
+                                <p>CI/CD - DevOps</p>
+                                <p>Docker - Azure Functions</p>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
                 </div>
             </div>
+            <div class="card custom-margintop animationleft3">
+                <div class="card-header custom-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
+                            aria-expanded="false" aria-controls="collapseThree">
+                            <h4>My Works</h4>
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body custom-projects">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm">
+                                    <div class="card custom-myworks-card">
+                                        <img class="card-img-top" src="resources/images/onurshop.png"
+                                            alt="Card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Various Web Application</h5>
+                                            <p class="card-text">Various web applications I have created in time with
+                                                ASP.NET MVC. I practiced with Data Access, Hosting, Data Validation and
+                                                other general concepts</p>
+                                            <a href="https://github.com/atakanertrk/Various-WebProjects" target="_blank"
+                                            class="btn btn-outline-dark">Source Code</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm">
+                                    <div class="card custom-myworks-card">
+                                        <img class="card-img-top" src="resources/images/notebookreact.png"
+                                            alt="Card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">ReactJS Examples (also contains web api)</h5>
+                                            <p class="card-text"> ReactJS examples, HTTP requests, SignalR real time
+                                                implementations. (FrontEnd-BackEnd communication in general) </p>
+                                            <a href="https://github.com/atakanertrk/reactjs-basic-template"
+                                                target="_blank" class="btn btn-outline-dark">Source Code</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm">
+                                    <div class="card custom-myworks-card">
+                                        <img class="card-img-top" src="resources/images/csharpgeneral.png"
+                                            alt="Card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">C#.net Language Concepts and more</h5>
+                                            <p class="card-text">My study notes about programming concepts, hosting,
+                                                example codes and more</p>
+                                                <a href="https://github.com/atakanertrk/csharp-and-dotnet-general"
+                                                target="_blank"  class="btn btn-outline-dark">Source Code</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="margin-bottom:100px;">
+
         </div>
     </div>
-</div>
+    
    
-
-<div class="go-top animationtop1">
-    <a href="#">
-        <svg width="2.4em" height="2.4em" viewBox="0 0 16 16" class="bi bi-caret-up" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" d="M3.204 11L8 5.519 12.796 11H3.204zm-.753-.659l4.796-5.48a1 1 0 0 1 1.506 0l4.796 5.48c.566.647.106 1.659-.753 1.659H3.204a1 1 0 0 1-.753-1.659z"/>
-        </svg>
-    </a>
-</div>
+    <div class="go-top animationtop1">
+        <a href="#">
+            <svg width="2.4em" height="2.4em" viewBox="0 0 16 16" class="bi bi-caret-up" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                    d="M3.204 11L8 5.519 12.796 11H3.204zm-.753-.659l4.796-5.48a1 1 0 0 1 1.506 0l4.796 5.48c.566.647.106 1.659-.753 1.659H3.204a1 1 0 0 1-.753-1.659z" />
+            </svg>
+        </a>
+    </div>
 
 
     <script src="./resources/animationScripts.js"></script>
@@ -197,6 +254,22 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <script>
+        function myFunction() {
+            /* Get the text field */
+            var copyText = document.getElementById("myInput");
+
+            /* Select the text field */
+            copyText.select();
+            copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+            /* Copy the text inside the text field */
+            document.execCommand("copy");
+
+            /* Alert the copied text */
+            alert("email copied : " + copyText.value);
+        }
+    </script>
 </body>
 
 </html>

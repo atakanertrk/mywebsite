@@ -1,82 +1,85 @@
 html,body{
    /* background-color:rgb(233,236,239); */
-   background: rgba(0, 10, 45,0.8);
+   background: #dfdfdf;
    min-height: 100vh;
 }
 
 /*****************/
 .logos{
     text-align: center;
+    margin-bottom: 30px;
 }
 .logos img{
-    height:100px; 
-    width: auto;
-    margin:20px;
+    height:5rem; 
+    width: 7rem;
+    margin:0.5rem;
 }
-@media only screen and (max-width: 600px) {
-    .logos img{
-        height:60px; 
-        width: auto;
-        margin:5px;
-    }
-}
+
 /************/
 .social{
     text-align: center; 
-    margin-top:20px;
+    margin-top:30px;
 }
 .social a{
-    /* color: rgba(100, 161, 157) !important; */
-    color:rgba(0, 200, 50,1);
-    font-size:35px;
+    color:#f45f37;
+    font-size:45px;
     padding-right: 5px;
     padding-left: 5px;
     text-align: center;
 }
 .social a:hover{
-    background-color: rgba(0,0,0,0.2);
-    color: rgb(62, 166, 255);
+    color: #f5a03a;
+    border-radius: 25%;
 }
 /************************************/
 
 .card{
     background-color: rgba(0,0,0,0.2);
+    border:0px;
 }
 
 .custom-navbar{
-    background-color: rgba(0,0,0,0.8)!important;
+    background-color: #413836!important;
 }
 .custom-navbar p{
-    color:rgba(255,255,255,0.8);
+    color:whitesmoke;
     padding-left:10px;
     padding-right: 10px;
     padding-bottom: 2px;
     padding-top: 2px;
-    font-size:17px;
+    font-size:20px;
     border-left:2px solid rgba(0, 200, 10,1);
-    background-color: rgba(0, 200, 10,0.2);
+    background-color: none;
+}
+.custom-navbar h4{
+    padding-top:20px;
+    font-size: 28px;
+    /*color: #64a19d;*/
+    color:whitesmoke;
 }
 .custom-navbar img{
-    width:160px; 
-    height:160px; 
+    width: 200px; 
+    height:200px; 
     border-radius: 100%;
 }
 @media only screen and (max-width: 600px) {
     .custom-navbar img{
-        width:100px; 
-        height:100px; 
+        width:120px; 
+        height:120px; 
         border-radius: 100%;
     }
     .custom-navbar{
         font-size: 15px;
         text-align: center;
     }
+    .custom-navbar p{
+        font-size:16px;
+    }
+    .custom-navbar h4{
+        font-size: 25px;
+    }
 }
-.custom-navbar h4{
-    padding-top:20px;
-    /*color: #64a19d;*/
-    color:rgba(255,255,255,0.8);
-}
+
 /************************************/
 .custom-acordion-sizing{
     width: 80%; 
@@ -97,12 +100,9 @@ html,body{
 /************************************/
 .custom-header{
     text-align: center;
-    background-color: rgba(0,0,0,0.5);
+    background-color: #413836;
 }
 .custom-header button{
-    color:rgba(255,255,255,0.5);
-    
-    /*border-bottom: 2px solid #64a19d;*/
     border-bottom: 2px solid rgb(0, 200, 50);
     text-decoration: none!important;
 }
@@ -111,7 +111,7 @@ html,body{
     text-decoration: none!important;
 }
 .custom-header h4{
-    color:rgba(255,255,255,0.8);
+    color:whitesmoke;
 }
 @media only screen and (max-width: 600px) {
     .custom-header h4{
@@ -121,8 +121,7 @@ html,body{
 }
 /************************************/
 .custom-aboutme{
-    text-align: center;
-    background-color: rgba(0,0,0,0.1);
+    background-color: #f8f9f9;
     
 }
 .custom-aboutme p{
@@ -130,7 +129,8 @@ html,body{
     padding-right: 3%; 
     padding-top: 2%;
     padding-bottom: 3%;
-    color:rgba(255,255,255,0.8);
+    color:black;
+    font-size: 20px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -138,14 +138,17 @@ html,body{
         padding-top:15px;
     }
     .custom-aboutme a{
-        font-size:25px;
+        font-size:18px;
         padding-right: 3px;
         padding-left: 3px;
+    }
+    .custom-aboutme p{
+        font-size: 15px;
     }
 }
 /************************************/
 .custom-skills{
-    background-color: rgba(0,0,0,0.1);
+    background-color: #f8f9f9;
 }
 .custom-skills ol{
     list-style: none;
@@ -158,17 +161,21 @@ html,body{
     padding-left: 8%;
     margin-top:2%;
     /*color: rgba(100, 161, 157) !important; */
-    color: rgb(62, 166, 255);
+    color: darkgreen;
+    font-size: 25px;
     
 }
 .custom-skills p{
     text-align: left; 
     margin-left: 10%;
     margin-right: 10%;
-    color: rgba(255, 255, 255, 0.8) !important;
+    font-size: 18px;
+    color: black !important;
+    /*
     border-bottom:1px solid green;
     border-bottom-right-radius: 30%;
     border-bottom-left-radius: 5%;
+    */
 }
 @media only screen and (max-width: 600px) {
     .custom-skills ol{
@@ -183,28 +190,18 @@ html,body{
     width: 18rem; 
     margin-top: 5%; 
     display: inline-block;
-    /* background-color:  rgba(255, 255, 255, 0.8) !important; */
-    background-color: rgba(0,0,0,0.1);
+    background-color: #dfdfdf;
 }
 .custom-myworks-card p{
-    color: rgba(255, 255, 255, 0.7) !important;
+    color: black !important;
     font-size: 18px!important;
 }
-.custom-myworks-card a{
-    background-color: rgba(0, 200, 10,0.4)!important;
-    border: 0px;
-}
-.custom-myworks-card a:hover{
-    background-color: rgba(0, 200, 10,0.8)!important;
-}
+
+
 .custom-myworks-card h5{
     /*color:#64a19d;*/
-    color: rgba(62, 166, 255,0.8);
+    color: black;
     font-weight: bold;
-}
-.custom-myworks-card p{
-    color: rgba(255, 255, 255, 0.8) !important;
-    font-size: 20px!important;
 }
 @media only screen and (max-width: 600px) {
     .custom-myworks-card img{
@@ -218,7 +215,7 @@ html,body{
 
 /*******************************************/
 .custom-projects{
-    background-color: rgba(0,0,0,0.1);
+    background-color: #f8f9f9;
     font-family:monspace;
 }
 
@@ -292,8 +289,45 @@ html,body{
 
 
 
-
-
+/**************COPY TO CLİPVOARD***************/
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -75px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+  /*******************************************/
 
 
 
