@@ -208,7 +208,7 @@ html,body{
         max-width: 250px;
     }
     .custom-myworks-card p{
-        color: rgba(255, 255, 255, 0.7) !important;
+        color: black !important;
         font-size: 15px!important;
     }
 }
