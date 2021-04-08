@@ -28,8 +28,8 @@ html,body{
     text-align: center;
 }
 .social a:hover{
-    color: #f5a03a;
     border-radius: 25%;
+    opacity: 0.5;
 }
 /************************************/
 
@@ -48,7 +48,7 @@ html,body{
     padding-bottom: 2px;
     padding-top: 2px;
     font-size:20px;
-    border-left:2px solid rgba(0, 200, 10,1);
+    border-left:2px solid #f45f37;
     background-color: none;
 }
 .custom-navbar h4{
@@ -103,7 +103,7 @@ html,body{
     background-color: #413836;
 }
 .custom-header button{
-    border-bottom: 2px solid rgb(0, 200, 50);
+    border-bottom: 2px solid #f45f37;
     text-decoration: none!important;
 }
 .custom-header button:hover{
@@ -161,7 +161,7 @@ html,body{
     padding-left: 8%;
     margin-top:2%;
     /*color: rgba(100, 161, 157) !important; */
-    color: darkgreen;
+    color: #f45f37;
     font-size: 25px;
     
 }
@@ -227,7 +227,7 @@ html,body{
     padding: 2px;
     -webkit-transition: -webkit-transform 1s ease-in-out;
     transition: transform 1s ease-in-out;
-    background-color:rgba(0,0,0,0.3);
+    background-color:#41383696;
     border-radius: 30%;
 }
 .go-top svg{
