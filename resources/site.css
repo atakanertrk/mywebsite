@@ -158,7 +158,7 @@ html,body{
 }
 .custom-skills h5{
     text-align: left; 
-    padding-left: 8%;
+    /*padding-left: 8%;*/
     margin-top:2%;
     /*color: rgba(100, 161, 157) !important; */
     color: #f45f37;
@@ -167,8 +167,8 @@ html,body{
 }
 .custom-skills p{
     text-align: left; 
-    margin-left: 10%;
-    margin-right: 10%;
+    /*margin-left: 10%;*/
+    /* margin-right: 10%; */
     font-size: 18px;
     color: black !important;
     /*
